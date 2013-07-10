@@ -98,6 +98,7 @@ filter   = sshd
 logpath  = /var/log/auth.log
 maxretry = 3
 bantime  = 900
+ignoreip = 192.168.0.0/24
 
 [dropbear]
 
@@ -334,6 +335,7 @@ findtime = 120
 action   = iptables[name=HTTP, port=http, protocol=TCP]
 sendmail-whois-lines[name=%(__name__)s, dest=%(destemail)s, logpath=%(logpath)s]
 bantime  = 600
+ignoreip = 192.168.0.0/24
 
 
 # block anyone failing to authentificate using nginx basic authentification

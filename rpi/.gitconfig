@@ -1,0 +1,19 @@
+[user]
+	name = Remi Fayolle
+	email = buzeeg@gmail.com
+[core]
+	autocrlf = input
+	safecrlf = true
+[alias]
+	co = checkout
+	ci = commit
+	st = status
+	br = branch
+	hist = log --pretty=format:\"%h %ad | [%an] %s%d\" --graph --date=short
+	type = cat-file -t
+	dump = cat-file -p
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
