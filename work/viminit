@@ -1,0 +1,2 @@
+alias vim="vim -u /home/remi/.vim/.vimrc"
+
