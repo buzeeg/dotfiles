@@ -81,5 +81,6 @@ colorscheme molokai
 "set background=dark
 "colorscheme solarized
 
-
+" Enable syntax highlighting for twig template files
+au BufRead,BufNewFile *.twig set filetype=htmljinja
 
